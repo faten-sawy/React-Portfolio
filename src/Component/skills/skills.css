@@ -1,25 +1,20 @@
 .skillsContainer {
   background-color: #12222e;
-  height: 800px;
+  height: auto;
+  min-height: 800px;
   text-align: center;
   color: white;
 }
 .skillInfo {
   width: 70%;
-  position: absolute;
-  left: 250px;
+  text-align: center;
+  align-items: center;
+  /* left: 250px; */
   margin-top: 20px;
 }
-.skillInfo > p {
-  font-size: large;
+.skillP {
+  font-size: x-large;
 }
-.skillDetail {
-  display: flex;
-  margin-top: 60px;
-  position: relative;
-  left: 200px;
-}
-
 .focusSkill > h4 {
   font-size: xx-large;
 }
@@ -29,10 +24,6 @@ hr {
 .focusSkill > h6 {
   font-size: large;
   margin-bottom: 20px;
-}
-.Progress {
-  position: relative;
-  left: 140px;
 }
 .prog {
   margin-bottom: 10px;
