@@ -1,0 +1,30 @@
+.headerContainer {
+  background-image: url('./hero-bg.jpg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: white;
+  text-align: center;
+}
+.info {
+  /* font-size: 70px; */
+  width: 800px;
+  position: relative;
+  left: 160px;
+  top: 160px;
+}
+.info > h1 {
+  font-size: 70px;
+}
+.info h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.info button {
+  width: 150px;
+  height: 50px;
+  border: 2px solid white;
+  background: none;
+  color: white;
+  font-size: x-large;
+}

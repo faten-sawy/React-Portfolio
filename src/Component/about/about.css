@@ -1,0 +1,24 @@
+.aboutContainer {
+  display: flex;
+  height: 300px;
+  margin-top: 30px;
+}
+.aboutContainer > h1 {
+  width: 50%;
+  font-size: 50px;
+  margin-top: 0;
+  margin-left: 30px;
+}
+.aboutContainer > div {
+  width: 50%;
+  text-align: left;
+}
+.aboutContainer > div > button {
+  border: none;
+  color: white;
+  background-color: #ffc801;
+  width: 250px;
+  height: 60px;
+  font-size: x-large;
+  text-transform: capitalize;
+}

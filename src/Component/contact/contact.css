@@ -1,0 +1,33 @@
+row {
+  margin-top: 30px;
+}
+.contactContainer {
+  height: 200px;
+  margin-top: 50px;
+  background-color: #12222e;
+  color: white;
+}
+i {
+  margin: 10px;
+
+  color: #ffc801;
+  font-size: xx-large;
+  /* background-color: white; */
+}
+.col {
+  margin-left: 70px;
+}
+.col button {
+  border: 2px solid white;
+  background: none;
+  width: 120px;
+  height: 50px;
+  color: white;
+  font-size: large;
+}
+.col p {
+  font-size: x-large;
+}
+.col span {
+  font-size: large;
+}

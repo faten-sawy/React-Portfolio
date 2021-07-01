@@ -1,0 +1,41 @@
+.portfolioContainer {
+  height: 600px;
+  margin-top: 40px;
+  display: flex;
+  /*  flex-wrap: wrap;
+  text-align: center; */
+}
+.portfolioContainer > h1 {
+  padding: 0;
+}
+.card {
+  /*  background-color: #12222e; */
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 90px;
+  margin-top: 40px;
+  color: white;
+  margin: 30px;
+  font-size: x-large;
+  box-shadow: #12222e;
+}
+.cardContainer {
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.card hr {
+  background-color: white;
+  border: 2px solid white;
+  width: 120px;
+  position: relative;
+  left: 90px;
+}
+.card p {
+  position: relative;
+  top: 60px;
+}
